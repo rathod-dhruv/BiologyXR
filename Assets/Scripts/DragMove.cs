@@ -18,7 +18,7 @@ public class DragMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.touchCount > 0)
+        if(Input.touchCount > 0 && Input.touchCount < 2)
         {
             touch = Input.GetTouch(0);
 

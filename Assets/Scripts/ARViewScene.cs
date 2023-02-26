@@ -78,14 +78,7 @@ public class ARViewScene : MonoBehaviour
         if (firstPlace && Input.touchCount > 0)
         {
             Debug.Log("IN");
-            if (Input.GetTouch(0).tapCount == 3)
-            {
-                activeARRotate();
-            }
-            else if (Input.GetTouch(0).tapCount == 2)
-            {
-                activeARScale();
-            }
+           
         }
     }
 
